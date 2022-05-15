@@ -4,7 +4,6 @@ import bg from '../../assets/images/bg.png'
 import AppointmentServices from './AppointmentServices';
 import AppointmentBanner from './AppointmentBanner';
 
-
 const Appointment = () => {
     const [date, setDate] = useState(new Date());
 

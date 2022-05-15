@@ -6,7 +6,7 @@ const MakeAppointment = () => {
     return (
         <div className='flex justify-center items-center mt-36 px-12' style={{background:`url(${appointment})`}}>
             <div className='flex-1 hidden lg:block'>
-                <img className='mt-[-150px]' src={doctor} />
+                <img className='mt-[-150px]' src={doctor} alt="" />
             </div>
             <div className='flex-1 p-5'>
                 <h3 className='text-primary font-bold'>Appointment</h3>
