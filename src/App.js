@@ -7,6 +7,7 @@ import Appointment from './Pages/Appointment/Appointment';
 import About from './Pages/About/About';
 import Login from './Pages/Login/Login/Login';
 import Contact from './Pages/Contact/Contact';
+import Register from './Pages/Login/Register/Register';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/appointment' element={<Appointment></Appointment>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
     </div>
   );
